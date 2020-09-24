@@ -57,8 +57,7 @@ public class ProductCatalog {
         }
 
         listOfProd.removeIf(item -> item.getId() == id);
-//        int idx = listOfId.indexOf(id);
-//        listOfProd.remove(idx);
+
     }
 
 }
